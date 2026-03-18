@@ -1,0 +1,51 @@
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+
+# --- Build / firmware artifacts ---
+*.o
+*.obj
+*.a
+*.la
+*.lo
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+
+# --- Arduino / PlatformIO ---
+/build/
+.pio/
+.sketches/
+
+# --- KiCad temporary / backups ---
+*.kicad_prl
+*-backups/
+
+# --- Project-generated runtime data ---
+ReceiverSoftware/logs/
+ReceiverSoftware/sessions/
+
+# --- Local scratch / generated files ---
+*.log
+*.tmp
+*.swp
